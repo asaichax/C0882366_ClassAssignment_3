@@ -1,6 +1,7 @@
 # References 
 
-`git status
+```
+git status
 cls
 docker build --tag C0882366-Node-Assignment3 . 
 docker build --tag c0882366-node-assignment3 . 
@@ -34,4 +35,4 @@ docker run --detach --publish 3001:8080 -e PORT=8080 -e  NAME=c1 c0882366-node-a
  //history
 doskey /history
 doskey /h > dockercommands.txt
-`
+```
