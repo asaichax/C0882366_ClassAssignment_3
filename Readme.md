@@ -63,3 +63,18 @@ doskey /h > dockercommands.txt
 ```
 docker run --detach --publish 3000:3000 --env-file my-env.txt c0882366-node-assignment3:latest
 ```
+### Tag your recently created image to publish on Docker hub registry
+
+```
+docker image tag c0882366-node-assignment3:latest saichandakkisani/c0882366-node-assignment3:1.0.0
+docker images
+docker login
+```
+### Pull and run the recently pushed image to local Docker environment
+
+```
+docker push saichandakkisani/c0882366-node-assignment3:1.0.0
+docker pull saichandakkisani/c0882366-node-assignment3:1.0.0 
+1.0.0
+docker run -d -p 3000:3000 saichandakkisani/c0882366-node-assignment3:1.0.0
+```
