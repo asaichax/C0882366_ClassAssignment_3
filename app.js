@@ -3,7 +3,7 @@ const express = require('express');
 
 const app = express();
 const SERVER_PORT = process.env.PORT || 3000;
-
+const NAME = process.env.NAME || "Sai"
 // Use body-parser middleware to parse incoming request bodies
 //app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -35,5 +35,6 @@ app.post('/submit', (req, res) => {
 //const PORT = 3000;
 app.listen(SERVER_PORT, () => {
   console.log(`Server is running at http://localhost:${SERVER_PORT}`);
+  console.log(`Name is:${NAME}`)
 });
 
