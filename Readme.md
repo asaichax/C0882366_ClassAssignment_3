@@ -59,7 +59,7 @@ docker run --detach --publish 3001:8080 -e PORT=8080 -e  NAME=c1 c0882366-node-a
 doskey /history
 doskey /h > dockercommands.txt
 ```
-### Stop the container using following commands using text file
+### Run the container using following commands using text file
 ```
 docker run --detach --publish 3000:3000 --env-file my-env.txt c0882366-node-assignment3:latest
 ```
