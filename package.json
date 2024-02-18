@@ -1,0 +1,20 @@
+{
+  "name": "c0882366_classassignment_3",
+  "version": "1.0.0",
+  "description": "DevOps Assignment 3 for Node Express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "DevOps",
+    "Express",
+    "Assignment3"
+  ],
+  "author": "C0882366-Sai Chand Akkisani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
