@@ -71,7 +71,6 @@ docker images
 docker login
 ```
 ### Pull and run the recently pushed image to local Docker environment
-
 ```
 docker push saichandakkisani/c0882366-node-assignment3:1.0.0
 docker pull saichandakkisani/c0882366-node-assignment3:1.0.0 
